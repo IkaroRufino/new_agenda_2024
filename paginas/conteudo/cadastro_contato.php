@@ -210,7 +210,7 @@
                             <a href="home.php?acao=editar&id=<?php echo $show->id_contatos; ?>" class="btn btn-success" title="Editar Contato"><i class="fas fa-user-edit"></i></button>
 
                             <!-- Botão para remover o contato -->
-                            <a href="conteudo/del-contato.php?idDel=<?php echo $show->id_contatos; ?>" onclick="return confirm('Deseja remover o contato')" class="btn btn-danger" title="Remover Contato"><i class="fas fa-user-times"></i></a>
+                            <a href="conteudo/del-contato.php?idDel=<?php echo $show->id_contatos; ?>" onclick="return confirm('Deseja remover o contato?')" class="btn btn-danger" title="Remover Contato"><i class="fas fa-user-times"></i></a>
                         </div>
                     </td>
                 </tr>
