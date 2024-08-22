@@ -85,6 +85,7 @@
               // Exibe a mensagem de erro de PDO
               echo '<strong>ERRO DE PDO= </strong>' . $e->getMessage();
           }
+          
                    ?>
                   </tbody>
                   <tfoot>
